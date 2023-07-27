@@ -1,0 +1,28 @@
+
+.navbar{
+    height: 112px;
+    background-color: #337AB7;
+    color: #ffffff;
+    font-size: 24px;
+    text-shadow: horizontal-offset vertical-offset blur-radius #000000;
+}
+.navbar a {
+    color: #ffffff; 
+    text-decoration: none; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+  
+  .navbar a:hover {
+    color: #c1c1c1; 
+  }
+
+  .navWrap{
+    
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+
+  }
+  .DD-clr{
+    background-color: #337AB7;
+
+  }

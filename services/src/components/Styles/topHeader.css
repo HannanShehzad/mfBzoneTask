@@ -1,0 +1,15 @@
+.topheader{
+    font-size: 32px;
+    color: #337AB7;
+    height: 59px;
+    
+}
+
+.topheader p {
+    color: #337AB7; /* Set a color for the text */
+    font-size:20px; /* Set an appropriate font size */
+  }
+
+  .headerIcon{
+        height: 30px;
+  }
