@@ -71,36 +71,21 @@ const Footer = () => {
               <h2 className="font-bold">Contact</h2>
             </div>
             <ul className="">
-              <li className="mb-9">
-                <a href="#" className="hover:underline">
-                  <div className="footertxt">
-                    <ul className="">
-                      <div className="topheader flex flex-wrap justify-between lg:justify-end items-center lg:space-x-2 sm:h-16 md:h-20 lg:h-24">
-                        {/* Show on large screens only */}
-                        <div className="hidden lg:flex flex-row items-center w-full lg:w-auto mb-2 lg:mb-0">
-                          <img
-                            src="./icons/pin.png"
-                            alt=""
-                            className="headerIcon "
-                          />
-                          <p
-                            style={{ fontSize: "20px", color: "white" }}
-                            className=" mr-2 sm:mr-5"
-                          >
-                            <span
-                              style={{ fontSize: "24px" }}
-                              className="font-bold"
-                            >
-                              Head Office:
-                            </span>
-                            102-12, Arlington, VA 22201 United States
-                          </p>
-                        </div>
-                      </div>
-                    </ul>
-                  </div>
-                </a>
-              </li>
+
+              <div className="flex flex-row mt-8 mb-8 text-center">
+              <img src="./icons/pin.png" alt="" className="headerIcon " />
+              <p
+                style={{ fontSize: "20px", color: "white" }}
+                className=" mr-2 sm:mr-5"
+              >
+                <span style={{ fontSize: "24px" }} className="font-bold">
+                  Head Office:
+                </span>
+                102-12, <br /> Arlington, VA 22201 United States
+              </p>
+
+              </div>
+
               <li className="mb-9">
                 <div className="flex flex-row">
                   <img
@@ -140,7 +125,7 @@ const Footer = () => {
               </li>
               <li className="">
                 <div className="flex flex-row">
-                <img
+                  <img
                     src="./icons/linkedin2.png"
                     alt=""
                     className="headerIcon mr-7"
