@@ -24,8 +24,8 @@ const Footer = () => {
             </div>
           </div>
           <div className="text-center md:text-left md:col-span-1">
-            <div className="footerheading text-center flex items-center h-full">
-              <h2 className="font-bold text-center">Navigation</h2>
+            <div className=" footerheading  text-center flex items-center h-full">
+              <h2 className="font-bold text-center nav">Navigation</h2>
             </div>
             <ul className="">
               <li className="mb-4">
@@ -67,8 +67,8 @@ const Footer = () => {
             </ul>
           </div>
           <div className="text-center md:text-left md:col-span-1">
-            <div className="footerheading text-center flex items-center h-full">
-              <h2 className="font-bold">Contact</h2>
+            <div className=" footerheading text-center flex items-center h-full">
+              <h2 className="font-bold contact ">Contact</h2>
             </div>
             <ul className="">
 

@@ -37,6 +37,13 @@
 .topheader{
     width: 120%;
 }
+.contact{
+    margin-left: 20% !important;
+}
+.nav{
+    margin-left: 15% !important;
+    
+}
 
 /* Tablet styles - Adjust height automatically */
 @media screen and (max-width: 768px) {
