@@ -37,3 +37,17 @@
 .topheader{
     width: 120%;
 }
+
+/* Tablet styles - Adjust height automatically */
+@media screen and (max-width: 768px) {
+    .footerWrap {
+        height: auto;
+    }
+}
+
+/* Mobile styles - Adjust height automatically */
+@media screen and (max-width: 480px) {
+    .footerWrap {
+        height: auto;
+    }
+}
