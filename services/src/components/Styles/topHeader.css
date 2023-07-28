@@ -1,15 +1,17 @@
-.topheader{
+.topheader {
     font-size: 32px;
-    color: #337AB7;
+    color: #666d72;
     height: 59px;
-    
-}
+    align-items: center;
+    overflow-x: hidden;
+  }
 
 .topheader p {
     color: #337AB7; /* Set a color for the text */
     font-size:20px; /* Set an appropriate font size */
   }
 
-  .headerIcon{
-        height: 30px;
+  .headerIcon {
+    height: 30px;
+    max-width: 100%;
   }

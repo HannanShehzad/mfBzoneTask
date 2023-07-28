@@ -6,3 +6,9 @@
 body {
   font-family: 'Roboto', sans-serif;
 }
+h1{
+  font-size: 54px;
+  color: #337AB7;
+  margin: 119px auto 40px 40px;
+  
+}

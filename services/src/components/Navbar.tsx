@@ -11,21 +11,18 @@ const Navbar = () => {
   };
 
   return (
-    <nav
+    <div className="flex flex-row navWrap">
+      <nav
       className={`navbar ${
         isMenuOpen ? "fixed" : ""
       } w-full z-20 top-0 left-0 `}
     >
-      <div className=" navWrap max-w-screen-xl flex flex-wrap items-center justify-between mx-auto ">
-        <a href="#" className="flex items-center">
-          <img src="./icons/logo.png" className=" mr-3" alt="Logo" />
-        </a>
-        <div className="flex md:order-2">
-          <button
-            type="button"
-            className="text-white bg-red-700 hover:bg-red-800  rounded-lg py-1 px-1 "  >
-            Get started
-          </button>
+      <div className="  max-w-screen-xl flex flex-wrap  mx-auto ">
+      <a href="#" className="flex items-right ml-0 mr-auto">
+  <img src="./icons/logo.png" className="custom-logo mr-2" alt="Logo" />
+</a>
+        <div className="flex md:order-2 ml-auto"> {/* Updated here */}
+          
           <button
             data-collapse-toggle="navbar-sticky"
             type="button"
@@ -72,7 +69,72 @@ const Navbar = () => {
                 href="#"
                 className="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
               >
-                About
+                Services
+              </a>
+            </li>
+            <li>
+              <a
+                href="#"
+                className="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
+              >
+                Work Samples
+              </a>
+            </li>
+            <li>
+              <a
+                href="#"
+                className="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
+              >
+                Testimonials
+              </a>
+            </li>
+            <li>
+              <a
+                href="#"
+                className="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
+              >
+                About Us
+              </a>
+            </li>
+            <li>
+              <a
+                href="#"
+                className="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
+              >
+                Payment
+              </a>
+            </li>
+            <li>
+              <a
+                href="#"
+                className="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
+              >
+                Estimating Fees
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+          <button
+            type="button"
+            className="getStartedButton text-white items-right hover:bg-red-700   py-1 px-1 "
+          >
+            Upload your plan here
+          </button>
+    </div>
+  );
+};
+
+export default Navbar;
+{/* <ul className={` flex flex-col p-4 md:p-0 mt-4 font-medium  rounded-lg md:flex-row md:space-x-8 md:mt-0 md:border-0 `}>
+            <li>
+              <a
+                href="#"
+                className="block py-2 pl-3 pr-4 text-white rounded md:text-blue-700 md:p-0 md:dark:text-blue-500"
+                aria-current="page"
+              >
+                Home
               </a>
             </li>
             <li>
@@ -88,14 +150,39 @@ const Navbar = () => {
                 href="#"
                 className="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
               >
-                Contact
+                Work Samples
               </a>
             </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-  );
-};
-
-export default Navbar;
+            <li>
+              <a
+                href="#"
+                className="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
+              >
+                Testimonials
+              </a>
+            </li>
+            <li>
+              <a
+                href="#"
+                className="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
+              >
+                About Us
+              </a>
+            </li>
+            <li>
+              <a
+                href="#"
+                className="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
+              >
+                Payment
+              </a>
+            </li>
+            <li>
+              <a
+                href="#"
+                className="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
+              >
+                Estimating Fees
+              </a>
+            </li>
+          </ul> */}

@@ -1,0 +1,38 @@
+.footerWrap{
+    background-color: #262525;
+    height: auto;
+    color: white !important;
+}
+.footerheading{
+    height: 150px;
+    width: 320px;
+    border-top: white 3px solid;
+    border-bottom: white 3px solid;
+    
+}
+.footerheading h2{
+    
+    text-align: center;
+    font-size: 48px;
+}
+.footertxt{
+    width: 320px;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 26px;
+}
+.footertxt h3{
+    font-size: 32px;
+}
+.phoneTxt{
+    color: white !important;
+    font-size: 30px;
+    
+
+}
+.headerIcon{
+    height: 50px;
+}
+.topheader{
+    width: 120%;
+}

@@ -5,6 +5,8 @@
     color: #ffffff;
     font-size: 24px;
     text-shadow: horizontal-offset vertical-offset blur-radius #000000;
+    margin-left: 0px !important;
+
 }
 .navbar a {
     color: #ffffff; 
@@ -17,6 +19,8 @@
   }
 
   .navWrap{
+    background-color: #337AB7;
+
     
     margin-left: 0px !important;
     margin-right: 0px !important;
@@ -26,3 +30,20 @@
     background-color: #337AB7;
 
   }
+.getStartedButton{
+  background-color: red;
+  height: 112px;
+  border-radius: 10px 0px 0px 10px ;
+  width: 160px;
+  font-size: 24px;
+
+}
+.custom-logo {
+  margin-left: -23%;
+}
+
+@media screen and (max-width: 768px) { 
+  .custom-logo {
+    margin-left: 0;
+  }
+}
