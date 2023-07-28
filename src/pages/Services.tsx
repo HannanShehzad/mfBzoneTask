@@ -8,31 +8,31 @@ import '../components/Styles/services.css'
 
 const Services = () => {
   const servisesSard = [
-    { imageSrc: './images/image1.png', heading: 'Noteworthy technology acquisitions 2021' },
-    { imageSrc: './images/image2.png', heading: 'Noteworthy technology acquisitions 2021' },
-    { imageSrc: './images/image3.jpeg', heading: 'Noteworthy technology acquisitions 2021' },
+    { imageSrc: './images/image1.png', heading: 'Cost Estimation \n (Labor & Material)' },
+    { imageSrc: './images/image2.png', heading: 'Quantities & Materials Takeoffs' },
+    { imageSrc: './images/image3.jpeg', heading: 'Construction Work Schedules' },
     
    
   ]
   const tradeCard = [
-    { imageSrc: './images/image4.png', heading: 'Noteworthy technology acquisitions 2021' },
-    { imageSrc: './images/image5.png', heading: 'Noteworthy technology acquisitions 2021' },
-    { imageSrc: './images/image6.png', heading: 'Noteworthy technology acquisitions 2021' },
-    { imageSrc: './images/image7.png', heading: 'Noteworthy technology acquisitions 2021' },
-    { imageSrc: './images/image8.png', heading: 'Noteworthy technology acquisitions 2021' },
-    { imageSrc: './images/image9.png', heading: 'Noteworthy technology acquisitions 2021' },
-    { imageSrc: './images/image10.png', heading: 'Noteworthy technology acquisitions 2021' },
-    { imageSrc: './images/image11.png', heading: 'Noteworthy technology acquisitions 2021' },
-    { imageSrc: './images/image12.png', heading: 'Noteworthy technology acquisitions 2021' },
-    { imageSrc: './images/image13.png', heading: 'Noteworthy technology acquisitions 2021' },
-    { imageSrc: './images/image14.png', heading: 'Noteworthy technology acquisitions 2021' },
-    { imageSrc: './images/image15.png', heading: 'Noteworthy technology acquisitions 2021' },
-    { imageSrc: './images/image16.png', heading: 'Noteworthy technology acquisitions 2021' },
-    { imageSrc: './images/image17.png', heading: 'Noteworthy technology acquisitions 2021' },
-    { imageSrc: './images/image18.png', heading: 'Noteworthy technology acquisitions 2021' },
-    { imageSrc: './images/image19.png', heading: 'Noteworthy technology acquisitions 2021' },
-    { imageSrc: './images/image20.png', heading: 'Noteworthy technology acquisitions 2021' },
-    { imageSrc: './images/image21.png', heading: 'Noteworthy technology acquisitions 2021' },
+    { imageSrc: './images/image4.png', heading: 'General Requirement' },
+    { imageSrc: './images/image5.png', heading: 'Site Constructionn' },
+    { imageSrc: './images/image6.png', heading: 'Concrete' },
+    { imageSrc: './images/image7.png', heading: 'Masonry' },
+    { imageSrc: './images/image8.png', heading: 'Metals' },
+    { imageSrc: './images/image9.png', heading: 'Wood & Plastics' },
+    { imageSrc: './images/image10.png', heading: 'Thermal and Moisture Protection' },
+    { imageSrc: './images/image11.png', heading: 'Doors and Windows' },
+    { imageSrc: './images/image12.png', heading: 'Finishes' },
+    { imageSrc: './images/image13.png', heading: 'Specialties' },
+    { imageSrc: './images/image14.png', heading: 'Equipment' },
+    { imageSrc: './images/image15.png', heading: 'Furnishings' },
+    { imageSrc: './images/image16.png', heading: 'Special Construction' },
+    { imageSrc: './images/image17.png', heading: 'Conveying Systems' },
+    { imageSrc: './images/image18.png', heading: 'Mechanical' },
+    { imageSrc: './images/image19.png', heading: 'Electrical' },
+    { imageSrc: './images/image20.png', heading: 'Plumbing' },
+    { imageSrc: './images/image21.png', heading: 'HVAC' },
   ]
 
   return (
